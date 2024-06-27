@@ -1,0 +1,110 @@
+html, body {
+    margin:0;
+    padding: 0;
+    
+}
+
+body {
+background-color: #db5656;
+background-image: radial-gradient(circle, rgba(236,236,244,1) 10%, rgba(24,4,7,0) 94%, rgba(222,7,32,1) 100%);
+/* background-image: url(img/background.jpg); */
+background-size: cover;
+min-height:100vh;
+  
+}
+
+h1 {
+	text-align: center;
+	font-family: "Metal Mania", system-ui;
+}
+
+
+
+.title{
+	text-align: center;
+	font-family: "Metal Mania", system-ui;
+	font-weight: 800;
+	font-size:36px;
+
+
+}
+
+
+.f-carousel__slide img {
+width:100%;
+height:100%;
+} 
+
+/* Karusele */
+
+  #myCarousel1 {
+	--f-carousel-spacing: 10px;
+	--f-carousel-slide-width: 50%;
+  }
+
+
+
+  #myCarousel1 .f-carousel__slide {
+	padding: 10px;
+	background: #eee;
+	border: 2px dotted green;
+	border-radius:8px;
+  }
+
+/* Major deze */
+  .container{
+	max-width:60%;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.flex{
+	display: flex;
+
+	flex-wrap: wrap;
+}
+
+.col{
+	margin: 25px;
+	width:200px;
+	-webkit-box-shadow: 5px 5px 16px 0px rgba(176,176,176,1);
+	-moz-box-shadow: 5px 5px 16px 0px rgba(176,176,176,1);
+	box-shadow: 5px 5px 16px 0px rgba(176,176,176,1);
+	background-color: #fff;
+}
+
+img {
+	width:100%;
+}
+
+label {
+	font-size: 20px;
+
+}
+
+
+.slider,
+.gallery{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.slider{
+	background-color: #f8f2f2;
+}
+
+.bg{
+	background-color: #BCE7FD;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+	.f-carousel-slide {
+	  width: calc(100% / 3);
+	}
+  }
